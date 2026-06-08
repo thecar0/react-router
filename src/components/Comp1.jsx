@@ -4,7 +4,7 @@ import Student from "./Student";
 function Comp1(){
     // 외부에서 가져온 students 값을 useState로 구성하면
     // users에서 한 추가, 수정, 삭제 가능
-    const [studentsall, setStudentsall] = useState();
+    const [studentsall, setStudentsall] = useState(students);
     
     return(  
         <div className="comp comp1">
